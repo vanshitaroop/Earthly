@@ -10,20 +10,20 @@ import ProgressBar from "react-scroll-progress-bar";
 import "animate.css"
 import TrackVisibility from "react-on-screen"
 export const Navbarp = () => {
-  const [sccrolled, setsccrolled] = useState("false")
+  // const [sccrolled, setsccrolled] = useState("false")
   const [activeLink, setactiveLink] = useState("home");
-  useEffect(() => {
-   const onScroll=()=>{
-    if(window.scrollY>50){
-      setsccrolled(true);
-    }
-    else{
-      setsccrolled(false);
-    }
-   }
-   window.addEventListener("scroll",onScroll);
-   return ()=>{window.removeEventListener("scroll",onScroll)}
-  }, []);
+  // useEffect(() => {
+  //  const onScroll=()=>{
+  //   if(window.scrollY>50){
+  //     setsccrolled(true);
+  //   }
+  //   else{
+  //     setsccrolled(false);
+  //   }
+  //  }
+  //  window.addEventListener("scroll",onScroll);
+  //  return ()=>{window.removeEventListener("scroll",onScroll)}
+  // }, []);
   const onUpdateActiveLink =(value)=>{
     setactiveLink(value)
   }
@@ -31,12 +31,12 @@ export const Navbarp = () => {
     return (
         <>
          <ProgressBar height="6" bgcolor="#000" duration="0.2" />
-        <Navbar expand="md" className={sccrolled ? "scrolled" : ""}>
+        <Navbar expand="md" className="navbar-dark bg-dark">
       <Container>
         <Navbar.Brand href="/">
         <TrackVisibility>
               {({ isVisible }) =>
-          <img src={logo}  style={{width:"150px"}} alt="Logo" className={isVisible?"animate__animated animate__jello":""}/>
+          <img src={logo}  style={{width:"100px"}} alt="Logo" className={isVisible?"animate__animated animate__jello":""}/>
           //  <b><h2 style={{color:"white"}}  className={isVisible?"animate__animated animate__backInUp brandd":"brandd"}>Earthly</h2></b> 
         }
           </TrackVisibility>
