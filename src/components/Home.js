@@ -3,10 +3,13 @@ import { Container } from 'react-bootstrap'
 export const Home = () => {
   return (
    <>
-     <Container>
-        <h2 style={{top:"255px"}}>hello</h2>
-     </Container>
-    
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <h2>helo</h2>  
    </>
 
   )

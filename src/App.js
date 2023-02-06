@@ -8,11 +8,8 @@ import { Project } from './components/Project';
 function App() {
   return (
     <div className="App">
-      
-      <Navbarp/>
+     <Navbarp/>
      <Home/>
-      
-     
     </div>
   );
 }
