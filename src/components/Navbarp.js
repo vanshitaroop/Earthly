@@ -31,7 +31,7 @@ export const Navbarp = () => {
     return (
         <>
          <ProgressBar height="6" bgcolor="#000" duration="0.2" />
-        <Navbar expand="md" className="navbar-dark bg-dark">
+        <Navbar expand="md" className="navbar-dark bg-dark fixed-top ">
       <Container>
         <Navbar.Brand href="/">
         <TrackVisibility>
