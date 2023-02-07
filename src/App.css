@@ -212,7 +212,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   word-spacing: 30px;
 }
 /* home page css */
-@charset "utf-8";
+
 /*
 Template Name: Nekmit
 Author: <a href="https://www.os-templates.com/">OS Templates</a>
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, 
 --------------------------------------------------------------------------------------------------------------- */
 form, fieldset, legend{margin:0; padding:0; border:none;}
 legend{display:none;}
-label, input, textarea, select, button{display:block; resize:none; outline:none; color:inherit; font-size:inherit; font-family:inherit; vertical-align:middle;}
+label, input, textarea, select, button{display:block; resize:none; outline:none; color:inherit; font-size:inherit; font-family:inherit; }
 label{margin-bottom:5px;}
 :required, :invalid{outline:none; box-shadow:none;}
 ::placeholder{opacity:1;}/* Makes sure the placeholder text is not transparent */
@@ -314,7 +314,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 
 /* Grid - RS-MQF 1140 V.2 - https://www.os-templates.com/free-basic-html5-templates/rs-mqf-1140
 --------------------------------------------------------------------------------------------------------------- */
-.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:inline-block; float:left; margin:0 0 0 4.21052%; list-style:none;}
+.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:inline-block; margin:0 0 0 4.21052%; list-style:none;}
 
 .first{margin-left:0; clear:left;}
 
@@ -369,7 +369,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 }
 #breadcrumb .heading{margin:0; font-size:2rem;}
 #footer .heading{margin-bottom:50px; font-size:1.2rem;}
-#latest article figure figcaption .heading{}
+
 @media screen and (max-width:750px){
   #pageintro .heading{margin-bottom:20px; font-size:2.5rem;}
 }
