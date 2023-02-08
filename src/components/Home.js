@@ -5,7 +5,7 @@ export const Home = () => {
     return (
         <>
            
-            <div className='bgded overlay padtop' style={{ backgroundImage: `url(${BgImg})` }}>
+            <div className='bgded overlay padtop' style={{ backgroundImage: `url(${BgImg})` ,height:"900px" }}>
                 <div id="pageintro" className="hoc clear">
                     <article  className='heading-text'>
                         <h3 className="heading">Sustainable products</h3>
