@@ -13,6 +13,8 @@
     "react-dom": "^18.2.0",
     "react-on-screen": "^2.1.1",
     "react-scripts": "5.0.1",
+    "react-scroll-animation": "^1.0.3",
+    "react-scroll-motion": "^0.3.2",
     "react-scroll-progress-bar": "^1.1.13",
     "web-vitals": "^2.1.4"
   },
